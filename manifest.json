@@ -22,5 +22,11 @@
   "action": {
     "default_popup": "hello.html",
     "default_icon": "hello_extensions.png"
-  }
+  },
+  "icons": {
+   "16": "hello_extensions.png",
+   "32": "hello_extensions.png",
+   "48": "hello_extensions.png",
+   "128": "hello_extensions.png"
+ }
 }
