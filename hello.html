@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset='UTF-8' />
   <title>Freedium Extension</title>
+  <script src="assets/js/twemoji.min.js" crossorigin="anonymous"></script>
   <style>
     body {
       width: 300px;
@@ -34,26 +36,6 @@
       margin-bottom: 20px;
     }
 
-    .status {
-      background: #f0f0f0;
-      padding: 12px;
-      border-radius: 8px;
-      margin-bottom: 16px;
-    }
-
-    .status-text {
-      color: #333;
-      font-size: 13px;
-      margin: 0;
-    }
-
-    .status-text::before {
-      content: "✓";
-      color: #28a745;
-      margin-right: 8px;
-      font-weight: bold;
-    }
-
     .example {
       background: #f8f9fa;
       padding: 12px;
@@ -78,6 +60,7 @@
     .arrow {
       color: #666;
       margin: 4px 0;
+      font-size: 16px;
     }
 
     .footer {
@@ -94,15 +77,11 @@
     <p class="description">
       Automatically redirects Medium articles to Freedium, giving you free access to premium content.
     </p>
-    
-    <div class="status">
-      <p class="status-text">Extension is active and working</p>
-    </div>
 
     <div class="example">
       <p class="example-title">Example:</p>
       <p class="url">https://medium.com/article-name</p>
-      <p class="arrow">-></p>
+      <p class="arrow">➜</p>
       <p class="url">https://freedium.cfd/article-name</p>
     </div>
 
