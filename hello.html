@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Freedium Extension</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      margin: 0;
+      background: #ffffff;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .logo {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      color: #1a1a1a;
+      font-size: 20px;
+      margin: 0 0 12px 0;
+    }
+
+    .description {
+      color: #666;
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .status {
+      background: #f0f0f0;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+
+    .status-text {
+      color: #333;
+      font-size: 13px;
+      margin: 0;
+    }
+
+    .status-text::before {
+      content: "✓";
+      color: #28a745;
+      margin-right: 8px;
+      font-weight: bold;
+    }
+
+    .example {
+      background: #f8f9fa;
+      padding: 12px;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .example-title {
+      color: #1a1a1a;
+      font-size: 13px;
+      font-weight: 600;
+      margin: 0 0 8px 0;
+    }
+
+    .url {
+      color: #0066cc;
+      font-size: 12px;
+      word-break: break-all;
+      margin: 0;
+    }
+
+    .arrow {
+      color: #666;
+      margin: 4px 0;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="hello_extensions.png" alt="Freedium Logo" class="logo">
+    <h1>Freedium Extension</h1>
+    <p class="description">
+      Automatically redirects Medium articles to Freedium, giving you free access to premium content.
+    </p>
+    
+    <div class="status">
+      <p class="status-text">Extension is active and working</p>
+    </div>
+
+    <div class="example">
+      <p class="example-title">Example:</p>
+      <p class="url">https://medium.com/article-name</p>
+      <p class="arrow">-></p>
+      <p class="url">https://freedium.cfd/article-name</p>
+    </div>
+
+    <div class="footer">
+      <p>No configuration needed - it works automatically!</p>
+    </div>
+  </div>
+</body>
+</html>
