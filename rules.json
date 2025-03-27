@@ -15,5 +15,22 @@
       "urlFilter": "https://medium.com/*",
       "resourceTypes": ["main_frame"]
     }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "freedium.cfd",
+          "scheme": "https"
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "*://*.medium.com/*",
+      "resourceTypes": ["main_frame"]
+    }
   }
 ] 

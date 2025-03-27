@@ -8,6 +8,7 @@
   ],
   "host_permissions": [
     "https://medium.com/*",
+    "*://*.medium.com/*",
     "https://freedium.cfd/*"
   ],
   "declarative_net_request": {
